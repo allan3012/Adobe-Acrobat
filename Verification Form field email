@@ -1,0 +1,10 @@
+
+/* EMAIL: Name of the field
+address and correo: var
+*/
+var address=this.getField("Email").value;
+var correo = /.\@./;
+if(correo.test(address)==false){
+
+app.alert('Please, Enter format email available');
+}
